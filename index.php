@@ -42,13 +42,13 @@ print $articles->toJson();
 
 #dump($articles->keys());
 #$articles = $articles->map(function($article) {
-#	$article->body = 'Mawlid';
+#	$article->body = 'Kevin';
 #	return $article->body;
 #});
 
 
 
-#dump($articles->merge(array('1' =>'Mawlid')));
+#dump($articles->merge(array('1' =>'Kevin')));
 
 #echo count($articles);
 
